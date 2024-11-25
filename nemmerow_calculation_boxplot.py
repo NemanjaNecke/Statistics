@@ -74,7 +74,7 @@ def create_individual_boxplots(data, filename_prefix):
         plt.close()
 
 # Load your data from the uploaded file
-file_path = "/mnt/data/file-H4WKDNDvSshBdt31JkjRQb"
+file_path = "corrected_nemerow_pollution_index_results.xlsx"
 data = pd.read_excel(file_path)
 
 # Generate individual boxplots for each column
